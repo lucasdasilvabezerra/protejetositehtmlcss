@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kaushan+Script&display=swap');
+
+@font-face {
+    font-family: estranha;
+    src: url(/fontes/idroid.otf);
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+body {
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+
+    background-image: linear-gradient(to bottom, #3CD983, #054b23);
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+
+    width: 100%;
+
+}
+
+h1 {
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: lighter;
+    font-size: 3em;
+    text-shadow: -1px 3px 1px rgba(0, 0, 0, 0.473);
+    text-align: center;
+
+}
+
+h2 {
+    font-family: estranha;
+    display: inline;
+    font-size: 1.5em;
+    color: #1A5C38;
+
+}
+
+h3 {
+    font-family: estranha;
+    font-size: 1em;
+    color: #1A5C38;
+    background-image: linear-gradient(to right, #C5EBD6, white);
+}
+
+header>p {
+    text-align: center;
+    color: rgb(228, 228, 228);
+    text-shadow: 0px 3px 5px rgba(0, 0, 0, 0.719);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+}
+
+nav {
+    padding: 10px;
+}
+
+nav>a {
+    text-decoration: none;
+    color: rgb(228, 228, 228);
+    margin-right: 2%;
+    font-size: 0.8em;
+
+
+}
+
+nav>a:hover {
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+}
+
+
+body {
+    padding: 0px;
+    margin: 0px;
+    background-color: #C5EBD6;
+}
+
+
+main {
+    margin: auto;
+    margin-top: 0px;
+    background-color: white;
+    width: 75%;
+    padding: 10px;
+
+
+}
+
+p {
+    text-indent: 20px;
+}
+
+picture {
+    padding: 0px;
+}
+
+source {
+    display: block;
+    margin: auto;
+    padding: 0px;
+}
+
+img {
+    display: block;
+    margin: auto;
+}
+
+.video {
+    position: relative;
+    background-color: #054b23;
+    padding: 10px;
+    padding-bottom: 59%;
+    border-radius: 3px;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+.video>iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+aside.aprender-mais {
+    background-color: #C5EBD6;
+    padding: 10px;
+    border-radius: 0px 0px 15px 15px;
+
+}
+
+span.titulo {
+    background-color: #2FA866;
+    color: white;
+    border-radius: 15px 15px 0px 0px;
+    height: 25px;
+    display: block;
+    padding: 10px;
+    margin-top: 10px;
+
+
+}
+
+ul {
+    columns: 2;
+    display: block;
+}
+
+footer {
+    background-color: #1A5C38;
+    margin-top: 10px;
+    padding: 5px;
+    height: 30px;
+    text-align: center;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: #054b23;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #2FA866;
+}
+
+p>a::after {
+    content: "\1F517";
+}
+
+span>a{
+    color: #3CD983;
+}
